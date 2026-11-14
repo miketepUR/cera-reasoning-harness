@@ -1120,7 +1120,7 @@ For each new session map, determine:
 
 The CERA architecture maintains bidirectional provenance through two
 complementary mechanisms, adapted from the methodology developed in
-a collaborative physics project (57,000+ lines with zero provenance loss
+a long-running collaborative research project (57,000+ lines with zero provenance loss
 across revisions):
 
 ### Upstream → Downstream (Forward Tracing)
@@ -1354,7 +1354,7 @@ integrator updates them.
   - Dedicated integrator conversation for CERA Index management —
     clean separation between session capture and cross-session synthesis
   - Bidirectional provenance tracking adapted from a collaborative
-    physics project methodology — explicit dependency declarations, cascade path
+    research project methodology — explicit dependency declarations, cascade path
     documentation, four-point verification with fresh-read check
   - Session-scoped IDs (RP-SXX-NNN) with promotion to project-level
     IDs (RP-NNN) and full promotion log
@@ -1369,7 +1369,7 @@ integrator updates them.
   Origin: Instance 3 working session with Michael. Triggered by
     Michael's observation that the v0.4.1 architecture had lost the
     standalone reasoning maps from the original CERA design. Cross-
-    project triangulation with a collaborative physics project contributed
+    project triangulation with a collaborative research project contributed
     the provenance tracking methodology. Meta Harness paper's
     adaptive retrieval principle (let the model choose what it needs)
     informed the two-tier separation. Collaborative.
